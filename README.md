@@ -330,7 +330,7 @@ mariadb -u username -p
 PHP7.4 is included in the repository. Enter the following command to install PHP7.4 and some common extensions.
 
 ```bash
-sudo apt install php7.4 php7.4-fpm php7.4-mysql php-common php7.4-cli php7.4-common php7.4-json php7.4-opcache php7.4-readline php7.4-mbstring php7.4-xml php7.4-gd php7.4-curl
+sudo apt install php7.4 php-imagick php7.4-fpm php7.4-mysql php-common php7.4-cli php7.4-common php7.4-json php7.4-opcache php7.4-readline php7.4-mbstring php7.4-xml php7.4-gd php7.4-curl
 ```
 
 PHP extensions are commonly needed for content management systems (CMS) such as [WordPress](https://wordpress.org/). For example, if your installation doesn't have `php7.4-xml` then some of your WordPress site pages might be blank and you might find an error in the Nginx error log like:
